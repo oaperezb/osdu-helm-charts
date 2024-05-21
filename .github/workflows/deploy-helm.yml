@@ -22,7 +22,7 @@ jobs:
         run: helm package .
 
       - name: Create index.yaml
-        run: helm repo index . --url https://oaperezb.github.io/osdu-helm-charts
+        run: helm repo index . --url https://oaperezb.github.com/osdu-helm-charts
 
       - name: Commit and push
         run: |
