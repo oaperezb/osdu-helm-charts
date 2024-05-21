@@ -22,12 +22,12 @@ jobs:
         run: helm package .
 
       - name: Create index.yaml
-        run: helm repo index . --url https://oaperezb.github.com/osdu-helm-charts
+        run: helm repo index . --url https://oaperezb.github.io/osdu-helm-charts
 
       - name: Commit and push
         run: |
-          git config --local user.email "omar_perez@epam.com"
-          git config --local user.name "omar_perez"
+          git config --local user.email "omarkpb@gmail.com"
+          git config --local user.name "oaperezb"
           git add .
           git commit -m "Release new chart version"
           git push
