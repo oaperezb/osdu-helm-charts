@@ -66,6 +66,6 @@ spec:
             prefix: /
       route:
         - destination:
-            host: grafana
+            host: osdu-helm-charts-grafana
             port:
-              number: 3000
+              number: 80
