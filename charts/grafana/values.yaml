@@ -732,12 +732,12 @@ dashboards: # {}
   #       $RAW_JSON
   #   custom-dashboard:
   #     file: dashboards/custom-dashboard.json
-  #   prometheus-stats:
-  #     gnetId: 2
-  #     revision: 2
-  #     datasource: Prometheus
     postgres-dashboard:
-      url: https://grafana.com/api/dashboards/14114/revisions/1/download
+      gnetId: 14114
+      revision: 1
+      datasource: Prometheus
+    # postgres-dashboard:
+    #   url: https://raw.githubusercontent.com/oaperezb/osdu-helm-charts/main/postgres-exporter.json
   #     token: ''
   #   local-dashboard-base64:
   #     url: https://example.com/repository/test-b64.json
