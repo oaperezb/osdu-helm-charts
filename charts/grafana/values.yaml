@@ -426,7 +426,7 @@ initChownData:
 
 # Administrator credentials when not using an existing secret (see below)
 adminUser: admin
-# adminPassword: strongpassword
+adminPassword: strongpassword
 
 # Use an existing secret for the admin user.
 admin:
@@ -597,15 +597,15 @@ plugins: []
 ## Configure grafana datasources
 ## ref: http://docs.grafana.org/administration/provisioning/#datasources
 ##
-datasources: {}
-#  datasources.yaml:
-#    apiVersion: 1
-#    datasources:
-#    - name: Prometheus
-#      type: prometheus
-#      url: http://prometheus-prometheus-server
-#      access: proxy
-#      isDefault: true
+datasources: # {}
+ datasources.yaml:
+   apiVersion: 1
+   datasources:
+   - name: Prometheus
+     type: prometheus
+     url: http://osdu-helm-charts-prometheus-server.default.svc:9090
+     # access: proxy
+     isDefault: true
 #    - name: CloudWatch
 #      type: cloudwatch
 #      access: proxy
