@@ -603,7 +603,7 @@ datasources: # {}
    datasources:
    - name: Prometheus
      type: prometheus
-     url: http://osdu-helm-charts-prometheus-server.default.svc:9090
+     url: http://osdu-helm-charts-prometheus-server.default.svc:80
      # access: proxy
      isDefault: true
 #    - name: CloudWatch

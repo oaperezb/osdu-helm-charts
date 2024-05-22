@@ -765,6 +765,11 @@ serverFiles:
         static_configs:
           - targets:
             - localhost:9090
+      - job_name: 'postgres'
+        scrape_interval: 5s
+        static_configs:
+          - targets:
+            - http://osdu-helm-charts-prometheus-postgres-exporter.default.svc:80
 
       # A scrape configuration for running Prometheus on a Kubernetes cluster.
       # This uses separate scrape configs for cluster components (i.e. API server, node)
