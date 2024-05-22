@@ -10,6 +10,6 @@ entries:
     name: osdu
     type: application
     urls:
-    - https://raw.githubusercontent.com/oaperezb/osdu-helm-charts/main/osdu-0.1.0.tgz
-    version: 0.1.0
+    - https://raw.githubusercontent.com/oaperezb/osdu-helm-charts/main/osdu-0.1.1.tgz
+    version: 0.1.1
 generated: "2024-05-21T16:19:18.921913-06:00"
