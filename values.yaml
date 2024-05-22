@@ -80,10 +80,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
-postgresql:
-  postgresqlUsername: myUser
-  postgresqlPassword: myPassword
-  postgresqlDatabase: myDatabase
-  persistence:
-    enabled: false
