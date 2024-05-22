@@ -732,10 +732,10 @@ dashboards: # {}
   #       $RAW_JSON
   #   custom-dashboard:
   #     file: dashboards/custom-dashboard.json
-    postgres-dashboard:
-      gnetId: 14114
-      revision: 1
-      datasource: Prometheus
+    # postgres-dashboard:
+    #   gnetId: 14114
+    #   revision: 1
+    #   datasource: Prometheus
     # postgres-dashboard:
     #   url: https://raw.githubusercontent.com/oaperezb/osdu-helm-charts/main/postgres-exporter.json
   #     token: ''
